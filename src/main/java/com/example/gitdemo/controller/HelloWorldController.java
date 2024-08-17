@@ -12,8 +12,8 @@ public class HelloWorldController {
         return "Hello Welcome !!!";
     }
 
-    @GetMapping("/{name}")
-    public String welcomeMessage(@PathParam("name") String name){
+    @GetMapping("/{name1}")
+    public String welcomeMessage(@PathParam("name1") String name){
         return "Welcome" +name;
     }
 }
